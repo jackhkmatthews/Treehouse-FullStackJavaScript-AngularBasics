@@ -4,6 +4,7 @@ angular.module("todoListApp", [])
   $scope.learningNgChange = function(){
     console.log("input changed");
   };
+  
   $scope.helloWorld = dataService.helloWorld;
 
   dataService.getTodos(function(response){
